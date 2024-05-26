@@ -24,14 +24,14 @@ for (let i = 0; i < radios.length; i++) {
         resultado.innerHTML = ''
         msc1.play()
         msc1.volume = 0.6
-        img.setAttribute('src', './Arquivos/god-war-1.png')
+        img.setAttribute('src', './img/god-war-1.png')
         res.appendChild(img)
         msc2.pause()
     } else if (valueUm) {
         resultado.innerHTML = ''
         msc2.play()
         msc2.volume = 0.6
-        img.setAttribute('src', './Arquivos/god-war-2.png')
+        img.setAttribute('src', './img/god-war-2.png')
         res.appendChild(img)
         msc1.pause()
     }  else {
