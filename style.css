@@ -1,0 +1,61 @@
+@font-face {
+        font-family: 'MinhaFonte';
+        src: url('../MinhaFonte/GodOfWar.woff2') format('woff2');
+        src: url('../MinhaFonte/GodOfWar.woff') format('woff');
+        src: url('../MinhaFonte/GODOFWAR.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #403F3C;
+    font-family: 'MinhaFonte', sans-serif;
+}
+
+header {
+    background: #8C8C8C;
+    margin: auto;
+    padding: 15px;
+    width: 600px;
+    text-align: center;
+}
+
+section {
+    background: #8C8C8C;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    width: 600px;
+}
+
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-right: 10px;
+    align-items: center;
+}
+
+#botao {
+    font-family: 'MinhaFonte', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 16px;
+    padding: 12px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+}
