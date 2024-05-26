@@ -11,20 +11,28 @@
         <h1>Na sua opinião qual o melhor God of War?</h1>
     </header>
     <section>
-        <form id="quiz-form">
-            <div class="opcoes">
-                <label>
-                    <input type="radio" name="godofwar" value="1"> God of War
-                </label>
-                <label>
-                    <input type="radio" name="godofwar" value="2"> God of War II
-                </label>
-                <label>
-                    <input type="radio" name="godofwar" value="3"> God of War III
-                </label>
+        <div>
+            <p>
+                <input type="radio" name="godofwar" id="god-1" class="custom-radio">
+                <label for="god-1">God of War I</label>
+                <input type="radio" name="godofwar" id="god-2" class="custom-radio">
+                <label for="god-2">God of War II</label>
+            </p>
+            <p>
+                <button id="botao" onclick="checkRadio()" type="button">Confirma</button>
+                <button id="botao" onclick="pauseMsc()"
+                type="button">Parar</button>
+            </p>
+            <audio id="god-1-music">
+                <source src="god-war-1-music.mp3" type="audio/mp3">
+            </audio>
+            <audio id="god-2-music">
+                <source src="god-war-2-music.mp3" type="audio/mp3">
+            </audio>
+            <div id="res">
+
             </div>
-        </form>
-        <audio id="audio-controls" controls></audio>
+        </div>
     </section>
     <script src="./main.js"></script>
 </body>

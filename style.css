@@ -12,24 +12,31 @@
 }
 
 body {
-    background-color: #403F3C;
+    background-color: #470a00;
     font-family: 'MinhaFonte', sans-serif;
 }
 
 header {
-    background: #8C8C8C;
+    background: #67271a;
+    color: goldenrod;
     margin: auto;
+    margin-top: 15px;
     padding: 15px;
     width: 600px;
     text-align: center;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 }
 
 section {
-    background: #8C8C8C;
+    background: #67271a;
+    color: goldenrod;
     margin: auto;
     text-align: center;
     padding: 15px;
     width: 600px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 
 
@@ -42,14 +49,52 @@ input {
     align-items: center;
 }
 
+.custom-radio:checked {
+    background-color: goldenrod;
+}
+
 #botao {
+    border: none;
+    background-color: #470a00;
+    color: goldenrod;
     font-family: 'MinhaFonte', sans-serif;
     text-align: center;
     align-items: center;
     margin: auto;
     margin-top: 16px;
     padding: 12px;
+    border-radius: 6px;
 }
+
+#botao:hover {
+    border: none;
+    background-color: #5c1e14;
+    color: goldenrod;
+    font-family: 'MinhaFonte', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 16px;
+    padding: 12px;
+    scale: 1.05;
+    transition: all 0.3s;
+    border-radius: 6px;
+}
+
+#botao::backdrop {
+    border: none;
+    background-color: #5c1e14;
+    color: goldenrod;
+    font-family: 'MinhaFonte', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 16px;
+    padding: 12px;
+    scale: 0.50;
+    transition: all 0.3s;
+}
+
 
 .opcoes {
     display: flex;
@@ -58,4 +103,10 @@ input {
     margin: auto;
     width: fit-content;
     padding: 10px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 18px;
 }
