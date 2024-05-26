@@ -110,3 +110,16 @@ img {
     width: 300px;
     border-radius: 18px;
 }
+
+.borda-head {
+    border-top: solid goldenrod;
+    border-bottom: solid goldenrod;
+    border-left: solid goldenrod;
+    border-right: solid goldenrod;
+}
+
+.borda {
+    border-bottom: solid goldenrod;
+    border-left: solid goldenrod;
+    border-right: solid goldenrod;
+}
